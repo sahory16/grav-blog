@@ -14,3 +14,93 @@ author:
     logo: x_logo.jpg
 ---
 
+## CSS Background
+### Ejercicio 1
+
+```html
+			<head>
+                  <style>
+                   	body{background-color: linen}
+                   </style>>
+            </head>
+```
+
+### Ejercicio 2
+
+```html
+                                            
+				<head>
+                     <style>
+                          body{background-image: url("paper.gif");}
+                      </style>>
+                </head>
+```                              
+
+## CSS Bordes
+### Ejercicio 1
+```html                                 
+        <head>
+               <style>
+                     p {
+                            border-style: dotted;
+                            border-width: 4px;
+                          }
+                </style>>
+        </head>
+```                                    
+### Ejercicio 2
+
+```html
+              <head>
+                     <style>
+                           p {
+                                  border-style: dotted;
+                                  border-width: 4px;
+                                  border-color: red;
+                              }
+                     </style>>
+              </head>
+```                                    
+## CSS Margin
+### Ejercicio 1
+
+```html
+           <head>
+                  <style>
+                         h1 {
+                                  margin-left: 20px;
+                               }
+                  </style>>
+           </head>
+```                                    
+## Ejercicio 2
+```html
+           <head>
+                  <style>
+                         h1 {
+								 margin-left: 25px;
+                               }
+                  </style>>
+           </head>
+```                                    
+## CSS Padding
+### Ejercicio 1
+```html
+            <head>
+                   <style>
+                         p {
+                                padding-top: 30px;
+                              }
+                    </style>>
+             </head>
+```                                    
+### Ejercicio 2
+```html
+              <head>
+                    <style>
+                          p {
+                                padding: 50px;
+                              }
+                     </style>>
+               </head>
+```
