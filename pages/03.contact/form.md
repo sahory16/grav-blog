@@ -1,12 +1,12 @@
 ---
-title: Contact
+title: Contacto
 form:
     name: my-nice-form
     fields:
         -
             name: name
-            label: Name
-            placeholder: 'Enter your name'
+            label: Nombre
+            placeholder: 'Ingrese su nombre'
             autofocus: 'on'
             autocomplete: 'on'
             type: text
@@ -15,23 +15,23 @@ form:
         -
             name: email
             label: Email
-            placeholder: 'Enter your email address'
+            placeholder: 'Ingrese su sorreo electronico'
             type: text
             validate:
                 rule: email
                 required: true
         -
             name: message
-            label: Message
+            label: Mensaje
             size: long
-            placeholder: 'Enter your message'
+            placeholder: 'Ingresa el mensaje'
             type: textarea
             validate:
                 required: true
     buttons:
         -
             type: submit
-            value: Submit
+            value: Enviar
             classes: 'gdlr-button with-border excerpt-read-more'
     process:
         -
@@ -49,7 +49,7 @@ form:
                 extension: txt
                 body: '{% include ''forms/data.txt.twig'' %}'
         -
-            message: 'Thank you for your feedback!'
+            message: 'Gracias por contactarte con nosotros!'
         -
             display: thankyou
 ---
