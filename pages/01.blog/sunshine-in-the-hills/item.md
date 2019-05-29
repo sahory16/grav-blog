@@ -14,7 +14,7 @@ author:
     logo: x_logo.jpg
 ---
 
-#### Algunos ejercicios sobre css resueltos tomados de la pagina de www.w3schools.com
+##### Algunos ejercicios sobre css resueltos tomados de la pagina de www.w3schools.com
 
 
 
