@@ -2,15 +2,15 @@
 title: Social
 taxonomy:
     category: sidebar
-social: 
-    - icon: facebook.png
-      url: "#"
-    - icon: instagram.png
-      url: "#"  
-    - icon: twitter.png
-      url: "#"  
-    - icon: youtube2.png
-      url: "#"  
+social:
+    -
+        icon: facebook.png
+        url: 'https://www.facebook.com/sahory.maila'
+    -
+        icon: instagram.png
+        url: 'https://www.instagram.com/sahory16/'
+    -
+        icon: twitter.png
+        url: 'https://twitter.com/MailaSahory'
 ---
-
 
