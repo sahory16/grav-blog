@@ -10,7 +10,7 @@ content:
     order:
         by: date
         dir: desc
-    limit: 5
+    limit: 3
     pagination: true
 feed:
     description: 'Sample Blog Description'
