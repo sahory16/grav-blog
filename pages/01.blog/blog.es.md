@@ -1,5 +1,6 @@
 ---
 title: Home
+menu: 'My Page'
 blog_url: blog
 body_classes: 'header-image fullwidth'
 sitemap:
