@@ -22,22 +22,16 @@ blog:
 google_translate_token: a4a3caaf1d41a924-5fa21ae3833dd6c1-g99933840045dca1c-26
 mainmenu:
   -
-    text: 'Menu Item'
+    text: Sobre mi
     url: '#'
   -
-    text: 'Another Item'
-    url: '#'
-  -
-    text: 'One more'
-    url: '#'
-  -
-    text: Contact
+    text: Contacto
     url: 'page:contact'
 masterslider:
   -
-    image: 1.jpg
+    image: 1.png
   -
-    image: 2.jpg
+    image: 2.png
   -
     image: 3.jpg
 masterslider_setup:
@@ -72,37 +66,16 @@ masterslider_setup:
 feedburner:
   title: 'Follow by Email'
   id: SoraArticle
-  text: 'Subscribe here to get our newsletter, it is safe just Put your Email and Press Enter'
+  text: 'Suscríbase aquí para recibir nuestro boletín de noticias, es seguro, solo coloque su correo electrónico y presione Enter'
 labels:
   title: Labels
   items:
     -
-      url: null
-      label: Cricket
-    -
-      url: null
-      label: Fashion
-    -
-      url: null
-      label: Fun
-    -
-      url: null
-      label: India
-    -
-      url: null
-      label: Punjab
-    -
-      url: null
-      label: Sport
-    -
-      url: null
-      label: Tech
-    -
-      url: null
-      label: World
+      url: 'http://getgrav.org/'
+      label: Grav
 footer:
-  title: Lipsum
-  content: 'Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque Caesaris facere voluntate liceret: sese habere. Magna pars studiorum, prodita quaerimus.<br /><br />Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Non equidem invideo, miror magis posuere velit aliquet.'
+  title: Graficacion y Animacion
+  content: 'Este blog se lleva acabo para la materia de Graficacion y Animacion, utilizando Grav como CMS para administrar el contido.'
 copyright:
   text1: Copyright
   year: 2015
