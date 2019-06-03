@@ -1,5 +1,6 @@
 ---
-title: 'Classic Modern Architecture'
+title: 'Grav: Funciones de las carpetas'
+media_order: grav-img.jpeg
 published: false
 date: '17:34 06/27/2014'
 taxonomy:
@@ -10,11 +11,9 @@ taxonomy:
         - photography
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tristique nulla et mattis. Phasellus id massa eget nisl congue blandit sit amet id ligula. Praesent et nulla eu augue tempus sagittis. Mauris faucibus nibh et nibh cursus in vestibulum sapien egestas. Curabitur ut lectus tortor. Sed ipsum eros, egestas ut eleifend non, elementum vitae eros. Mauris felis diam, pellentesque vel lacinia ac, dictum a nunc. Mauris mattis nunc sed mi sagittis et facilisis tortor volutpat. Etiam tincidunt urna mattis erat placerat placerat ac eu tellus.
+Grav es un CMS de archivos planos, lo que significa que usted consigue un CMS rápido, sofisticado y flexible sin tener que preocuparse por las bases de datos. No existen procesos complicados de instalación, y todo el contenido es impulsado por lenguaje Markdown.
 
 ===
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tristique nulla et mattis. Phasellus id massa eget nisl congue blandit sit amet id ligula. Praesent et nulla eu augue tempus sagittis. Mauris faucibus nibh et nibh cursus in vestibulum sapien egestas. Curabitur ut lectus tortor. Sed ipsum eros, egestas ut eleifend non, elementum vitae eros. Mauris felis diam, pellentesque vel lacinia ac, dictum a nunc. Mauris mattis nunc sed mi sagittis et facilisis tortor volutpat. Etiam tincidunt urna mattis erat placerat placerat ac eu tellus. Ut nec velit id nisl tincidunt vehicula id a metus. Pellentesque erat neque, faucibus id ultricies vel, mattis in ante. Donec lobortis, mauris id congue scelerisque, diam nisl accumsan orci, condimentum porta est magna vel arcu. Curabitur varius ante dui. Vivamus sit amet ante ac diam ullamcorper sodales sed a odio. Curabitur ut lectus tortor. Sed ipsum eros, egestas ut eleifend non, elementum vitae eros. Mauris felis diam, pellentesque vel lacinia ac, dictum a nunc.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tristique nulla et mattis. Phasellus id massa eget nisl congue blandit sit amet id ligula. Praesent et nulla eu augue tempus sagittis. Mauris faucibus nibh et nibh cursus in vestibulum sapien egestas. Curabitur ut lectus tortor. Sed ipsum eros, egestas ut eleifend non, elementum vitae eros. Mauris felis diam, pellentesque vel lacinia ac, dictum a nunc. Mauris mattis nunc sed mi sagittis et facilisis tortor volutpat. Etiam tincidunt urna mattis erat placerat placerat ac eu tellus. Ut nec velit id nisl tincidunt vehicula id a metus. Pellentesque erat neque, faucibus id ultricies vel, mattis in ante. Donec lobortis, mauris id congue scelerisque, diam nisl accumsan orci, condimentum porta est magna vel arcu. Curabitur varius ante dui. Vivamus sit amet ante ac diam ullamcorper sodales sed a odio.
+En este post aprenderemos un poco sobre la estructura de Grav, que carpetas contiene y  para que funcionan, las carpetas que podemos omitir para mejor el rendimiento de la pagina.
 
