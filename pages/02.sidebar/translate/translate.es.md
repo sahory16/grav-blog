@@ -1,7 +1,6 @@
 ---
-title: Translate
+title: 'Traducir Pagina'
 taxonomy:
     category: sidebar
 ---
-
 
