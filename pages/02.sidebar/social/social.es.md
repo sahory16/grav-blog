@@ -1,5 +1,5 @@
 ---
-title: Social
+title: 'Redes Sociales'
 taxonomy:
     category: sidebar
 social:
