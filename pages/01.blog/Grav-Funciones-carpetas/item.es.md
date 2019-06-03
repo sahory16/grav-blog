@@ -15,5 +15,18 @@ Grav es un CMS de archivos planos, lo que significa que usted consigue un CMS r√
 
 ===
 
-En este post aprenderemos un poco sobre la estructura de Grav, que carpetas contiene y  para que funcionan, las carpetas que podemos omitir para mejor el rendimiento de la pagina.
+Posee una estructura de carpetas que se ve de la siguente forma
+
+~~~
+	//assets
+   //backup
+   //bin
+   //cache
+   //images
+   //logs
+   //system
+   //user
+   //vendor
+~~~
+
 
