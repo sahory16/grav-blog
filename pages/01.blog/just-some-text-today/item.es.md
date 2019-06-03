@@ -1,7 +1,7 @@
 ---
-title: 'Just Some Text Today'
-published: false
-date: '13:34 06/23/2014'
+title: JavaScript
+published: true
+date: '17:34 06/03/2019'
 taxonomy:
     category:
         - blog
