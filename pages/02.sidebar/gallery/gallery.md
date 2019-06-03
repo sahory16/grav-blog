@@ -1,16 +1,14 @@
 ---
-title: Gallery
+title: Recursos
 taxonomy:
     category: sidebar
 gallery: 
-    - image: 1.jpeg
-      url: "#"
-    - image: 2.jpeg
-      url: "#"  
-    - image: 3.jpeg
-      url: "#"  
-    - image: 4.jpeg
-      url: "#" 
+    - image: descarga.png
+      url: "https://getbootstrap.com/"
+    - image: jquery-logo.gif
+      url: "https://jquery.com/"  
+    - image: w3school.png
+      url: "https://www.w3schools.com/"   
 image_as_link: true
 ---
 
