@@ -11,7 +11,7 @@ languages:
   supported:
     - es
   default_lang: es
-  include_default_lang: false
+  include_default_lang: true
   pages_fallback_only: false
   translations: true
   translations_fallback: true
