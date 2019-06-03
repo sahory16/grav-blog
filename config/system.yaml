@@ -10,7 +10,8 @@ intl_enabled: true
 languages:
   supported:
     - es
-  include_default_lang: true
+  default_lang: es
+  include_default_lang: false
   pages_fallback_only: false
   translations: true
   translations_fallback: true

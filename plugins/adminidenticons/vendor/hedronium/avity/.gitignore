@@ -1,4 +1,0 @@
-vendor/
-.fuse*
-composer.lock
-test.php

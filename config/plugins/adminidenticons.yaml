@@ -1,4 +1,4 @@
-enabled: true
+enabled: false
 type: identicon
 border_radius: 100
 background: '#f8f8f8'
