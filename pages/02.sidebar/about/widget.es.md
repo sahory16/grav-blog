@@ -1,5 +1,5 @@
 ---
-title: 'About Me'
+title: 'Sobre mi'
 media_order: foto-about.jpg
 taxonomy:
     category:
