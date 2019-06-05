@@ -43,7 +43,7 @@ continue_link: true
 </script>
 Se debe ingresar un valor para darle el tamaño a la figura.
 
- <p><label for="num">Ingrese un número:</label><br><input type="number" id="num" min="1"  onkeyup="Figura()"/><br><br><code id="figura" class="fig"></code></p>
+ <label for="num">Ingrese un número:</label><br><input type="number" id="num" min="1"  onkeyup="Figura()"/><br><br><code id="figura" class="fig"></code>
 
 
 
