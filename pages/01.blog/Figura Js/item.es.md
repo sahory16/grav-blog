@@ -20,9 +20,9 @@ continue_link: true
     var n = document.getElementById("num").value;
         var dato=parseInt(n);
     var i,j;
-        banco="";
-        asterisco="*";
-        salto="<br>";
+       var banco="";
+       var asterisco="*";
+       var salto="<br>";
         if(Number.parceInt(dato))
         {
     for ( i = 0;i < n; i++) {
