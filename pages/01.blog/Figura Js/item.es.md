@@ -17,7 +17,8 @@ continue_link: true
 <script type="text/javascript">
     function armandoFigura() {
     var n = document.getElementById("nun").value;
-        if(isNaN(n)){
+    var dato = parseInt(n);
+        if(isNaN(dato)){
                     var x,y;
                 var blancos = "";
 
