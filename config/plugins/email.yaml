@@ -1,6 +1,8 @@
 enabled: true
-from: sahory.maila@gmail.com.here
-to: sahory.maila@gmail.here
+from: sahory.maila@gmail.com
+from_name: Sahory
+to: sahory.maila@gmail.com
+to_name: Sahory
 queue:
   enabled: false
   flush_frequency: '* * * * *'
@@ -12,8 +14,8 @@ mailer:
     server: smtp.google.com
     port: 465
     encryption: ssl
-    user: sahory
-    password: Administrador1
+    user: 'Sahory Maila'
+    password: jutxoiyczwyyfsat
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
