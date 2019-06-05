@@ -17,42 +17,41 @@ shortcodes:
 ---
 
 <script type="text/javascript">
-    function myFunction() {
-        var max = document.getElementById("valor").value;
-        var dato = parseInt(max);
+    function armandoFigura() {
+    var n = document.getElementById("nun").value;
+        if(isNaN(n)){
+                alert("El dato ingresado no es un numero entero");
+                document.getElementById("nun").value=" "; 
+                
+            }else{
+                  var x,y;
+                var blancos = "";
 
-            if(Number.isInteger(dato)){
-                var filas,columnas;
-                var cadena = "";
-
-                for (filas=0;filas<max;filas++){
-                    for(columnas=0;columnas<=filas;columnas++){
-                        cadena = cadena +"*";
+                for (x=0;x<max;x++){
+                    for(y=0;y<=x;y++){
+                        blancos = blancos +"*";
                     }
-                    cadena = cadena +"<br>"; 
+                    blancos = blancos +"<br>"; 
                 }
-                for (filas=0;filas<max;filas++){
-                    for(columnas=0;columnas<max;columnas++){
-                        if(columnas<=filas){
-                            cadena = cadena +"&nbsp";
+                for (x=0;x<n;x++){
+                    for(y=0;y<n;y++){
+                        if(y<=x){
+                            blancos = blancos +"&nbsp";
                         }else{
-                             cadena = cadena +"*";
+                             blancos = blancos +"*";
                         }
                     }
-                    cadena = cadena +"<br>"; 
+                    blancos = blancos +"<br>"; 
                 }
-                document.getElementById("figura").innerHTML = cadena;
-                document.getElementById("valor").value=" "; 
-            }else{
-                alert("El dato ingresado no es un numero entero");
-                document.getElementById("valor").value=" "; 
+                document.getElementById("figura").innerHTML = blancos;
+                document.getElementById("nun").value=" ";  
             }
-    }
+}
 </script>
 ### Ingrese un numero
 
- <p><label for="valor">Ingrese un número:</label><br><input type="text" id="valor" onkeyup="myFunction()"/><br><br>
-    <code id="figura" class="fig"></code>
+ <p><label for="valor">Ingrese un número:</label><br><input type="text" id="num" onkeyup="armandoFigura()"/><br><br>
+    <div id="figura" class="fig"></div>
 </p>
 
 
