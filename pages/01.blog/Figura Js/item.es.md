@@ -19,7 +19,7 @@ continue_link: true
         var max = document.getElementById("valor").value;
         var dato = parseInt(max);
 
-            if(Number.isInteger(dato)){
+            if(dato%1==0)){
                 var filas,columnas;
                 var cadena = "";
 
@@ -40,6 +40,9 @@ continue_link: true
                     cadena = cadena +"<br>"; 
                 }
                 document.getElementById("figura").innerHTML = cadena;
+                document.getElementById("valor").value=" "; 
+            }else{
+                alert("El dato ingresado no es un numero entero");
                 document.getElementById("valor").value=" "; 
             }
     }
