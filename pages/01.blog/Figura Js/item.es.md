@@ -48,7 +48,9 @@ shortcodes:
             }
 }
 </script>
-### Ingrese un numero
+### Formando figuras
+#### En este post mostraremos una figura utilizando javascript.
+===
 
  <p><label for="valor">Ingrese un número:</label><br><input type="text" id="num" onkeyup="armandoFigura()"/><br><br>
     <div id="figura" class="fig"></div>
