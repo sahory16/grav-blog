@@ -10,7 +10,6 @@ taxonomy:
 continue_link: false
 ---
 
-{{% assets type="js" inline=false priority=5 pipeline=false %}}
-  
-{{% end %}}
+### Ingrese un numero
+
 
