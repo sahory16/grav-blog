@@ -17,5 +17,7 @@ shortcodes:
 ---
 
 ### Ingrese un numero
-
+{{% summary %}}
+ <p><label for="valor">Ingrese un número:</label><br><input type="text" id="valor" onkeyup="myFunction()"/><br><br><code id="figura" class="fig"></code></p>
+{{% end %}}
 
