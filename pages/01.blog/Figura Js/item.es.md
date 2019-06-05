@@ -50,6 +50,10 @@ shortcodes:
 </script>
 ### Formando figuras
 #### En este post mostraremos una figura utilizando javascript.
+Se debe ingresar un valor para darle el tamaño a la figura.
+
+
+
 ===
 
  <p><label for="valor">Ingrese un número:</label><br><input type="text" id="num" onkeyup="armandoFigura()"/><br><br>
