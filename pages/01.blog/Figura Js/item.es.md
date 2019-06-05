@@ -18,11 +18,7 @@ continue_link: true
     function armandoFigura() {
     var n = document.getElementById("nun").value;
         if(isNaN(n)){
-                alert("El dato ingresado no es un numero entero");
-                document.getElementById("nun").value=" "; 
-                
-            }else{
-                  var x,y;
+                    var x,y;
                 var blancos = "";
 
                 for (x=0;x<max;x++){
@@ -44,6 +40,10 @@ continue_link: true
                 document.getElementById("figura").innerHTML = blancos;
                 document.getElementById("nun").value=" ";  
             }
+                
+            }else{
+                alert("El dato ingresado no es un numero entero");
+                document.getElementById("nun").value=" ";
 }
 </script>
 Se debe ingresar un valor para darle el tamaño a la figura.
