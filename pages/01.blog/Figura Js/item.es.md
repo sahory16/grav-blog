@@ -18,29 +18,35 @@ continue_link: true
     function figura() {
     var n = document.getElementById("num").value;
     var i,j;
+        banco="";
+        asterisco="*";
+        salto="<br>";
     for ( i = 0;i < n; i++) {
         {
             for (j = 0; j < i; j++) {
-                document.write("*");
+               banco=banco+asterisco;
             }
-            document.write("<br>");
+            blanco=blanco+salto;
         }
         for (i = 0; i < n; i++) {
             for (j = 0; j < n; j++) {
                 if (j < i) {
-                    document.write(" ");
+                    blanco=blanco+" ";
                 } else {
-                    document.write("*");
+                    blanco=blanco+asterisco;
                 }
             }
-            document.write("<br>");
+            blanco=blanco+salto;
         }
     }
+        
+        document.getElementById("figura").innerHTML = blanco;
+                document.getElementById("num").value=" ";
 }
 </script>
 Se debe ingresar un valor para darle el tamaño a la figura.
 
- <p><label for="valor">Ingrese un número:</label><br><input type="text" id="valor" onkeyup="figura()"/><br><br><code id="figura" class="fig"></code></p>
+ <p><label for="num">Ingrese un número:</label><br><input type="text" id="num" onkeyup="figura()"/><br><br><code id="figura" class="fig"></code></p>
 
 
 
