@@ -15,38 +15,32 @@ continue_link: true
 
 ===
 <script type="text/javascript">
-    function myFunction() {
-        var max = document.getElementById("valor").value;
-        var dato = parseInt(max);
-
-            if(Number.parseInt(dato)){
-                var filas,columnas;
-                var cadena = "";
-
-                for (filas=0;filas<max;filas++){
-                    for(columnas=0;columnas<=filas;columnas++){
-                        cadena = cadena +"*";
-                    }
-                    cadena = cadena +"<br>"; 
-                }
-                for (filas=0;filas<max;filas++){
-                    for(columnas=0;columnas<max;columnas++){
-                        if(columnas<=filas){
-                            cadena = cadena +"&nbsp";
-                        }else{
-                             cadena = cadena +"*";
-                        }
-                    }
-                    cadena = cadena +"<br>"; 
-                }
-                document.getElementById("figura").innerHTML = cadena;
-                document.getElementById("valor").value=" "; 
+    function figura() {
+    var n = document.getElementById("num").value;
+    var i,j;
+    for ( i = 0;i < n; i++) {
+        {
+            for (j = 0; j < i; j++) {
+                document.write("*");
             }
+            document.write("<br>");
+        }
+        for (i = 0; i < n; i++) {
+            for (j = 0; j < n; j++) {
+                if (j < i) {
+                    document.write(" ");
+                } else {
+                    document.write("*");
+                }
+            }
+            document.write("<br>");
+        }
     }
+}
 </script>
 Se debe ingresar un valor para darle el tamaño a la figura.
 
- <p><label for="valor">Ingrese un número:</label><br><input type="text" id="valor" onkeyup="myFunction()"/><br><br><code id="figura" class="fig"></code></p>
+ <p><label for="valor">Ingrese un número:</label><br><input type="text" id="valor" onkeyup="figura()"/><br><br><code id="figura" class="fig"></code></p>
 
 
 
