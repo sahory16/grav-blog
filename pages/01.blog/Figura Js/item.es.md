@@ -17,10 +17,7 @@ continue_link: true
 <script type="text/javascript">
     function Figura() {
         var max = document.getElementById("num").value;
-        var dato = parseInt(max);
-
-           
-                var filas,columnas;
+               var filas,columnas;
                 var cadena = "";
 
                 for (filas=0;filas<max;filas++){
