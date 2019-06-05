@@ -8,6 +8,12 @@ taxonomy:
     tag:
         - javascript
 continue_link: false
+shortcodes:
+    assets:
+        enabled: true
+        options:
+            type: jss
+            inline: false
 ---
 
 ### Ingrese un numero
