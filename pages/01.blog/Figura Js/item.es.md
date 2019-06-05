@@ -19,7 +19,7 @@ continue_link: true
         var max = document.getElementById("valor").value;
         var dato = parseInt(max);
 
-            if(dato%1==0)){
+            if(Number.parseInt(dato)){
                 var filas,columnas;
                 var cadena = "";
 
