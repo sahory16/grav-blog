@@ -13,7 +13,6 @@ sync:
   cron_at: '0 12,23 * * *'
 repository: 'https://github.com/sahory16/grav-blog.git'
 user: sahory16
-password: gitsync-def50200b9fb4871b2df0111b0a64c28a444eb294f511d426e1cc44b705efcde4d58b58394b2ae7abe7c10b855b6bbfb781eb9487cceb30513067b40bebdd6ecd403bc8eb65e92a1354c624e4f7e6703b8339fdce55769736e00cb2ff717
 webhook: /grav_blog
 webhook_enabled: '0'
 webhook_secret: 10c5d44471e5798d85e1575465714809cd5971e1f8d743a8
@@ -23,8 +22,9 @@ remote:
   branch: master
 git:
   author: gituser
-  message: '(Grav GitSync) Automatic Commit'
+  message: Actualizado
   name: GitSync
   email: git-sync@trilby.media
   bin: git
 logging: false
+password: gitsync-def50200b9fb4871b2df0111b0a64c28a444eb294f511d426e1cc44b705efcde4d58b58394b2ae7abe7c10b855b6bbfb781eb9487cceb30513067b40bebdd6ecd403bc8eb65e92a1354c624e4f7e6703b8339fdce55769736e00cb2ff717
