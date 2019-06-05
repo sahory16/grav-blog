@@ -19,7 +19,7 @@ continue_link: true
         var max = document.getElementById("num").value;
         var dato = parseInt(max);
 
-            if(Number.isInteger(dato)){
+           
                 var filas,columnas;
                 var cadena = "";
 
@@ -41,10 +41,7 @@ continue_link: true
                 }
                 document.getElementById("figura").innerHTML = cadena;
                 document.getElementById("num").value=" "; 
-            }else{
-                alert("El dato ingresado no es un numero entero");
-                document.getElementById("num").value=" "; 
-            }
+           
     }
 </script>
 Se debe ingresar un valor para darle el tamaño a la figura.
