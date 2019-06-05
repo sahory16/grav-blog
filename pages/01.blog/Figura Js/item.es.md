@@ -21,6 +21,8 @@ continue_link: true
         banco="";
         asterisco="*";
         salto="<br>";
+        if(Number.parceInt(n))
+        {
     for ( i = 0;i < n; i++) {
         {
             for (j = 0; j < i; j++) {
@@ -40,8 +42,14 @@ continue_link: true
         }
     }
         
+        
         document.getElementById("figura").innerHTML = blanco;
                 document.getElementById("num").value=" ";
+        } else
+        {
+            alert("El dato ingresado no es un numero entero");
+                document.getElementById("valor").value=" "; 
+        }
 }
 </script>
 Se debe ingresar un valor para darle el tamaño a la figura.
