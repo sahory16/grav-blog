@@ -15,49 +15,41 @@ continue_link: true
 
 ===
 <script type="text/javascript">
-    function figura()
-    {
-    var n = document.getElementById("num").value;
-        var dato=parseInt(n);
-   
-        if(Number.isInteger(dato))
-        {
-             var i,j;
-       var banco="";
-       var asterisco="*";
-       var salto="<br>";
-    for ( i = 0;i < n; i++) {
-        {
-            for (j = 0; j < i; j++) {
-               banco=banco+asterisco;
-            }
-            blanco=blanco+salto;
-        }
-        for (i = 0; i < n; i++) {
-            for (j = 0; j < n; j++) {
-                if (j < i) {
-                    blanco=blanco+" ";
-                } else {
-                    blanco=blanco+asterisco;
+    function Figura() {
+        var max = document.getElementById("num").value;
+        var dato = parseInt(max);
+
+            if(Number.isInteger(dato)){
+                var filas,columnas;
+                var cadena = "";
+
+                for (filas=0;filas<max;filas++){
+                    for(columnas=0;columnas<=filas;columnas++){
+                        cadena = cadena +"*";
+                    }
+                    cadena = cadena +"<br>"; 
                 }
+                for (filas=0;filas<max;filas++){
+                    for(columnas=0;columnas<max;columnas++){
+                        if(columnas<=filas){
+                            cadena = cadena +"&nbsp";
+                        }else{
+                             cadena = cadena +"*";
+                        }
+                    }
+                    cadena = cadena +"<br>"; 
+                }
+                document.getElementById("figura").innerHTML = cadena;
+                document.getElementById("num").value=" "; 
+            }else{
+                alert("El dato ingresado no es un numero entero");
+                document.getElementById("num").value=" "; 
             }
-            blanco=blanco+salto;
-        }
     }
-        
-        
-        document.getElementById("figura").innerHTML = blanco;
-                document.getElementById("num").value=" ";
-        } else
-        {
-            alert("El dato ingresado no es un numero entero");
-                document.getElementById("valor").value=" "; 
-        }
-}
 </script>
 Se debe ingresar un valor para darle el tamaño a la figura.
 
- <p><label for="num">Ingrese un número:</label><br><input type="text" id="num" onkeyup="figura()"/><br><br><code id="figura" class="fig"></code></p>
+ <p><label for="num">Ingrese un número:</label><br><input type="text" id="num" onkeyup="Figura()"/><br><br><code id="figura" class="fig"></code></p>
 
 
 
