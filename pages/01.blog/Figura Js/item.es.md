@@ -41,9 +41,6 @@ continue_link: true
                 }
                 document.getElementById("figura").innerHTML = cadena;
                 document.getElementById("valor").value=" "; 
-            }else{
-                alert("El dato ingresado no es un numero entero");
-                document.getElementById("valor").value=" "; 
             }
     }
 </script>
