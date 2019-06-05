@@ -15,13 +15,15 @@ continue_link: true
 
 ===
 <script type="text/javascript">
-    function figura() {
+    function figura()
+    {
     var n = document.getElementById("num").value;
+        var dato=parseInt(n);
     var i,j;
         banco="";
         asterisco="*";
         salto="<br>";
-        if(Number.parceInt(n))
+        if(Number.parceInt(dato))
         {
     for ( i = 0;i < n; i++) {
         {
