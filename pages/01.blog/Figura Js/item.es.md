@@ -16,27 +16,27 @@ continue_link: true
 ===
 <script type="text/javascript">
     function Figura() {
-        var max = document.getElementById("num").value;
-               var filas,columnas;
-                var cadena = "";
+        var lim = document.getElementById("num").value;
+               var x,y;
+                var c = "";
 
-                for (filas=0;filas<max;filas++){
-                    for(columnas=0;columnas<=filas;columnas++){
-                        cadena = cadena +"*";
+                for (x=0;x<lim;x++){
+                    for(y=0;y<=x;y++){
+                        c = c +"*";
                     }
-                    cadena = cadena +"<br>"; 
+                    c = c +"<br>"; 
                 }
-                for (filas=0;filas<max;filas++){
-                    for(columnas=0;columnas<max;columnas++){
-                        if(columnas<=filas){
-                            cadena = cadena +"&nbsp";
+                for (x=0;x<lim;x++){
+                    for(y=0;y<lim;y++){
+                        if(y<=x){
+                            c = c +"&nbsp";
                         }else{
-                             cadena = cadena +"*";
+                             c = c +"*";
                         }
                     }
-                    cadena = cadena +"<br>"; 
+                    c = c +"<br>"; 
                 }
-                document.getElementById("figura").innerHTML = cadena;
+                document.getElementById("figura").innerHTML = c;
                 document.getElementById("num").value=" "; 
            
     }
