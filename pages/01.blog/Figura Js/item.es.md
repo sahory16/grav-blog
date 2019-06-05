@@ -19,12 +19,13 @@ continue_link: true
     {
     var n = document.getElementById("num").value;
         var dato=parseInt(n);
-    var i,j;
+   
+        if(Number.isInteger(dato))
+        {
+             var i,j;
        var banco="";
        var asterisco="*";
        var salto="<br>";
-        if(Number.parceInt(dato))
-        {
     for ( i = 0;i < n; i++) {
         {
             for (j = 0; j < i; j++) {
