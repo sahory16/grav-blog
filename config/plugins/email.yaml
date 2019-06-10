@@ -4,12 +4,12 @@ from_name: Sahory
 to: sahory.maila@gmail.com
 to_name: Sahory
 queue:
-  enabled: false
+  enabled: true
   flush_frequency: '* * * * *'
   flush_msg_limit: 10
   flush_time_limit: 100
 mailer:
-  engine: none
+  engine: smtp
   smtp:
     server: smtp.google.com
     port: 465
