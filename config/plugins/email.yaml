@@ -20,3 +20,4 @@ mailer:
     bin: /usr/sbin/sendmail
 content_type: text/html
 debug: false
+body: 'Bienvenido, gracias por ponerte en contacto con nosotros.'
