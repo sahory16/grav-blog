@@ -14,7 +14,7 @@ mailer:
     server: smtp.google.com
     port: 465
     encryption: ssl
-    user: 'Sahory Maila'
+    user: sahory.maila@gmail.com
     password: jutxoiyczwyyfsat
   sendmail:
     bin: /usr/sbin/sendmail
