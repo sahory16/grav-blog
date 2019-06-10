@@ -15,7 +15,7 @@ languages:
   pages_fallback_only: false
   translations: true
   translations_fallback: true
-  session_store_active: false
+  session_store_active: true
   http_accept_language: false
   override_locale: false
 home:
