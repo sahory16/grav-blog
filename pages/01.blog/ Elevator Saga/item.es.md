@@ -1,15 +1,15 @@
 ---
 title: 'Elevator Saga: The elevator programming game'
 media_order: elevator_visual.png
-published: false
-date: '13:34 06/21/2014'
+published: true
+date: '13:34 06/09/2019'
 taxonomy:
     category:
         - blog
     tag:
-        - ocean
-        - birds
-        - photography
+        - javascript
+        - juego
+        - challenge
 ---
 
 Elevator Saga -  El juego de programación de ascensores es una simple simulación de un ascensor en un edificio que responde a las solicitudes de servicio. Hay niveles múltiples con desafíos cada vez más diferentes. Debe mejorar la lógica empleada a medida que los desafíos se vuelven más exigentes, aumenta el número de ascensores y aumenta el número de pisos.
