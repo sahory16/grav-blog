@@ -1,8 +1,6 @@
 enabled: true
 from: sahory.maila@gmail.com
-from_name: Sahory
 to: sahory.maila@gmail.com
-to_name: Sahory
 queue:
   enabled: true
   flush_frequency: '* * * * *'
@@ -20,4 +18,3 @@ mailer:
     bin: /usr/sbin/sendmail
 content_type: text/html
 debug: false
-body: 'Bienvenido, gracias por ponerte en contacto con nosotros.'
