@@ -1,6 +1,7 @@
 title: SoraArticle
 favicon: favicon.png
 default_lang: es
+google_analytics: "UA-141816948-1"
 author:
   name: 'Sahory Maila'
   email: sahory.maila@gmail.com
@@ -19,7 +20,7 @@ summary:
   size: 300
   delimiter: '==='
 blog:
-  route: ''
+  route: 'sahorymailaweb.com'
 google_translate_token: a4a3caaf1d41a924-5fa21ae3833dd6c1-g99933840045dca1c-26
 mainmenu:
   -
@@ -28,6 +29,9 @@ mainmenu:
   -
     text: Contacto
     url: 'page:contact'
+
+  - text: Login
+    url: 'http://sahorymailaweb.com:86/admin'
 masterslider:
   -
     image: 1.png
