@@ -11,8 +11,10 @@ taxonomy:
         - photography
 ---
 
-####La etiqueta canvas de HTML se utiliza para dibujar gráficos sobre la marcha, a través de JavaScript. Es solo un contenedor para gráficos. Debes usar JavaScript para dibujar los gráficos. Canvas tiene varios métodos para dibujar trazados, cuadros, círculos, texto y agregar imágenes.
+####La etiqueta canvas de HTML se utiliza para dibujar gráficos sobre la marcha, a través de JavaScript. Es solo un contenedor para gráficos. 
 ===
+Debes usar JavaScript para dibujar los gráficos. Canvas tiene varios métodos para dibujar trazados, cuadros, círculos, texto y agregar imágenes.
+
   
 ### Reloj Invertido
  <div>   
