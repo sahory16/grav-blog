@@ -17,11 +17,11 @@ taxonomy:
 
 
 ### Reloj Normal
-    
+  <div> 
 <canvas id="canvas" width="400" height="400"
 style="background-color:#333">
 </canvas>
-
+</div>
 <script>
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
