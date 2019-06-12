@@ -1,6 +1,6 @@
 ---
-title: 'London Industry at Night'
-published: true
+title: 'Etiqueta Canvas '
+published: false
 date: '16:46 06/12/2019'
 taxonomy:
     category:
@@ -20,7 +20,7 @@ Canvas tiene varios métodos para dibujar trazados, cuadros, círculos, texto y 
 
 ### Reloj Normal
     
-    <canvas id="canvas" width="400" height="400"
+<canvas id="canvas" width="400" height="400"
 style="background-color:#333">
 </canvas>
 
@@ -109,7 +109,7 @@ function drawHand(ctx, pos, length, width) {
     
 ### Reloj Invertido
     
-    <canvas id="canvas2" width="400" height="400"
+ <canvas id="canvas2" width="400" height="400"
 style="background-color:#333">
 </canvas>
 
