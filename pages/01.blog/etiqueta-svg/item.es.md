@@ -1,7 +1,7 @@
 ---
 title: 'Etiqueta SVG'
 published: true
-date: '12-06-2019 17:10'
+date: '10-06-2019 17:10'
 ---
 
 ##### SVG significa gráficos vectoriales escalables. Se utiliza para definir gráficos para la web.
