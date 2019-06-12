@@ -106,11 +106,11 @@ function drawHand(ctx, pos, length, width) {
     
     
 ### Reloj Invertido
-    
+ <div>   
  <canvas id="canvas2" width="400" height="400"
 style="background-color:#333">
 </canvas>
-
+</div>
 <script>
 var canvas = document.getElementById("canvas2");
 var ctx = canvas.getContext("2d");
