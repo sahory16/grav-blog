@@ -1,7 +1,7 @@
 ---
 title: 'Etiqueta Canvas '
-published: false
-date: '16:46 06/12/2019'
+published: true
+date: '16:55 06/12/2019'
 taxonomy:
     category:
         - blog
