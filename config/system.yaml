@@ -20,7 +20,7 @@ languages:
   override_locale: false
 home:
   alias: /blog
-  hide_in_urls: false
+  hide_in_urls: true
 pages:
   theme: soraarticle
   order:
