@@ -17,7 +17,7 @@ widgets:
   dashboard-maintenance: true
   dashboard-statistics: true
   dashboard-notifications: true
-  dashboard-feed: false
+  dashboard-feed: true
   dashboard-pages: true
 pages:
   show_parents: both
@@ -34,8 +34,8 @@ google_fonts: false
 admin_icons: line-awesome
 enable_auto_updates_check: true
 notifications:
-  feed: false
-  dashboard: false
+  feed: true
+  dashboard: true
   plugins: true
   themes: true
 popularity:
