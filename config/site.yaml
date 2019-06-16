@@ -5,15 +5,7 @@ google_analytics: "UA-141816948-1"
 author:
   name: 'Sahory Maila'
   email: sahory.maila@gmail.com
-  description: 'Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
-  url: 'http://getgrav.org/'
   logo: logo.jpg
-taxonomies:
-  - category
-  - tag
-  - month
-metadata:
-  description: 'Sora Article is a minimal Theme designed for blogger, converted to Grav.'
 summary:
   enabled: true
   format: short
@@ -32,42 +24,6 @@ mainmenu:
 
   - text: Login
     url: 'http://sahorymailaweb.com:86/admin'
-masterslider:
-  -
-    image: 1.png
-  -
-    image: 2.png
-  -
-    image: 3.jpg
-masterslider_setup:
-  width: 1140
-  height: 500
-  space: 0
-  start: 1
-  grabCursor: 'false'
-  swipe: 'true'
-  mouse: 'false'
-  layout: fullwidth
-  wheel: 'false'
-  autoplay: 'true'
-  instantStartLayers: 'false'
-  loop: 'true'
-  shuffle: 'false'
-  preload: 2
-  heightLimit: 'true'
-  autoHeight: 'false'
-  smoothHeight: 'true'
-  endPause: 'false'
-  overPause: 'true'
-  fillMode: fill
-  centerControls: 'false'
-  layersMode: center
-  hideLayers: 'false'
-  fullscreenMargin: 0
-  speed: 20
-  dir: h
-  parallaxMode: swipe
-  view: basic
 feedburner:
   title: 'Follow by Email'
   id: SoraArticle
@@ -84,9 +40,3 @@ footer:
 copyright:
   text1: Copyright
   year: 2015
-  url: 'http://sora-article-soratemplates.blogspot.in/'
-  text2: 'Sora Article'
-copyright2:
-  text1: ', Ported by'
-  url: 'http://getgrav.org/'
-  text2: 'Grav Team'
