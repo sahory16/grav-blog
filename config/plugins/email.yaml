@@ -13,8 +13,8 @@ mailer:
     port: 465
     encryption: ssl
     user: sahory.maila@gmail.com
-    password: jutxoiyczwyyfsat
+    password: SahoryMaila16
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
-debug: false
+debug: true
