@@ -1,0 +1,6 @@
+name: hola
+email: saho.1606@gmail.com
+tel: '0981009104'
+dateb: '1996-06-16'
+message: 'probando formulario de contacto'
+
