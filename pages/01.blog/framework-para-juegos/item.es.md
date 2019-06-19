@@ -1,5 +1,7 @@
 ---
 title: 'Framework para juegos'
+published: true
+date: '18-06-2019 14:03'
 ---
 
 * Pixi.js
