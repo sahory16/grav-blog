@@ -8,11 +8,6 @@ taxonomy:
     tag:
         - css
         - ejercicios
-author:
-    name: 'Sahory Maila'
-    description: 'Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
-    url: '#'
-    logo: x_logo.jpg
 ---
 
 ##### Algunos ejercicios sobre css resueltos tomados de la pagina de www.w3schools.com
