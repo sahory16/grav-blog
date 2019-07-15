@@ -1,7 +1,7 @@
 absolute_urls: false
 param_sep: ':'
 wrapped_site: false
-reverse_proxy_setup: true
+reverse_proxy_setup: false
 force_ssl: false
 force_lowercase_urls: true
 custom_base_url: 'http://sahorymailaweb.com/grav'
